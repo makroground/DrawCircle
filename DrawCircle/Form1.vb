@@ -22,7 +22,7 @@ Public Class Form1
 
         'Dim pn As New Pen(Color.Blue)
         Dim gp As GraphicsPath = New GraphicsPath
-        gp.AddEllipse(500, 500, 30, 30)
+        gp.AddEllipse(50, 50, 30, 30)
 
         Dim rect As New Rectangle(center.X / 2, center.Y / 2, radius * 2, radius * 2)
         'graphics.DrawEllipse(pn, rect)
@@ -38,7 +38,7 @@ Public Class Form1
             End If
             cPresent = False
         Else
-            DrawACircle(New Point(1000, 1000), 15)
+            DrawACircle(New Point(100, 100), 15)
             cPresent = True
         End If
     End Sub
